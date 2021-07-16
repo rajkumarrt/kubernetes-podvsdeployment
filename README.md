@@ -26,8 +26,12 @@ Pod Vs Deployment in Kubernetes
 <td style="width: 50%; height: 17px;">When create a deployment, replcia set is created(which manages pod)</td>
 </tr>
 <tr>
-<td style="width: 50%;">Rollback and rollout is not avaliable</td>
+<td style="width: 50%;">Rollback and rollout is not available</td>
 <td style="width: 50%;">rollout and rollback available</td>
 </tr>
 </tbody>
 </table>
+
+Pods are the smallest, most basic deployable objects in Kubernetes. A Pod represents a single instance of a running process in your cluster. Pods contain one or more containers, such as Docker containers. When a Pod runs multiple containers, the containers are managed as a single entity and share the Pod's resources.
+
+
